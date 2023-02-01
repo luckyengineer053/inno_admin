@@ -1,0 +1,134 @@
+.edit {
+  * {
+    font-family: Inter;
+  }
+
+  .sub-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FBAD27;
+  }
+
+  .time-left {
+    background: #F3F3F3;
+    border-radius: 5px;
+    width: 100%;
+    height: 80px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+
+  button {
+    background: #FBAD27;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    border: none;
+  }
+}
+
+.delete-body {
+  // width: 520px;
+  // padding: 30px;
+  // background: #FFFFFF;
+  // border-radius: 10px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // gap: 10px;
+
+  .delete-top {
+    display: flex;
+    justify-content: space-between;
+
+    .delete-top-left {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #333333;
+    }
+
+    .delete-top-right {}
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .delete-center {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #555555;
+    text-align: center;
+  }
+
+  .delete-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+
+    button {
+      background: #DDDDDD;
+      border-radius: 5px;
+      padding: 10px;
+      color: #333333;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+    }
+  }
+
+  .error {
+    color: red;
+  }
+}

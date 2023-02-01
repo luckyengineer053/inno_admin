@@ -1,0 +1,162 @@
+.detail-project {
+  padding: 50px;
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+    gap: 10px;
+
+    div {
+      // margin-right: 10px;
+      background-color: #DDDDDD;
+      color: #333333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 3px;
+      box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+
+      &:hover {
+        background-color: #999999;
+      }
+    }
+  }
+
+  .project-title {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+  }
+
+  table,
+  tr {
+    width: 100%;
+  }
+
+  // tr {
+  //   margin-top: 15px;
+  // }
+
+  td {
+    width: 50%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+    padding-top: 10px;
+  }
+
+  .subscription {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.detail-whitelist {
+  padding: 50px;
+
+  .whitelist-title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+  }
+
+  table,
+  tr {
+    width: 100%;
+  }
+
+  th {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+    padding: 20px 5px;
+  }
+
+  td {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.whitelist-opp {
+  p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+    margin-top: 25px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  table,
+  tr {
+    width: 100%;
+  }
+
+  th {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+    padding: 10px 5px;
+  }
+
+  td {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+}

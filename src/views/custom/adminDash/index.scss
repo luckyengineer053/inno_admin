@@ -1,0 +1,169 @@
+.overviewBody {
+  padding: 30px;
+  font-family: Inter;
+
+  td {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .overviewLeft {
+    font-weight: 400;
+  }
+
+  .overviewRight {
+    font-weight: 500;
+
+    span {
+      color: #FBAD27;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+.cardsBody {
+  .card {
+    padding: 30px;
+
+    .number {
+      font-family: Inter;
+      font-size: 64px;
+      font-weight: 500;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FBAD27;
+    }
+
+    .name {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+
+.log {
+  padding: 30px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+
+    .titleLeft {
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      // text-align: left;
+    }
+
+    .titleRight {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      // text-align: right;
+      color: #FBAD27;
+      cursor: pointer;
+    }
+  }
+
+  .thead {
+    margin-top: 40px;
+  }
+
+  table {
+    .leftTd {
+      width: 25%;
+    }
+
+    td {
+      padding: 10px 0px;
+    }
+  }
+}
+
+.subscriberOverviewBody {
+  padding: 30px;
+
+  .title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  table {
+    width: 100%;
+
+    tr {
+      td {
+        font-family: Inter;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  .tdLeft {
+    font-weight: 400;
+    width: 50%;
+  }
+
+  .tdRight {
+    font-weight: 500;
+
+    span {
+      color: #FBAD27;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+.changePassword {
+  .btn {
+    width: 45%;
+  }
+}
+
+.changeImage {
+  .imgContainer {
+    background: #EFEFEF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 5px;
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .button {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.error {
+  color: red;
+}
